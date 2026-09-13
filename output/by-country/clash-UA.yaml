@@ -4,16 +4,16 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 170.168.97.8
+- name: 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
+  server: 89.47.55.9
   port: 8443
   udp: true
   type: vless
   uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   tls: true
   reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  servername: download.nvidia.com
+    public-key: TWaatavWGcWV-E7c4AXmBXypLKJzm6eR3FGG61spayQ
+  servername: www.sony.com
   client-fingerprint: chrome
   network: grpc
   grpc-opts:
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
 rules:
 - MATCH,PROXIES
