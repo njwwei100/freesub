@@ -4,32 +4,9 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.78.194",
-      "server_port": 443,
-      "uuid": "2c0109e7-8d35-4d20-a076-0d4eb9eb444d",
-      "tls": {
-        "enabled": true,
-        "server_name": "ger.chalghooz.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cloude",
-        "headers": {
-          "Host": "ger.chalghooz.com"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "162.159.244.91",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.19.229.21",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -39,7 +16,26 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "//assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
+      "server": "104.19.229.21",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "//assignment",
         "headers": {
           "Host": "www.calmlunch.com"
         }

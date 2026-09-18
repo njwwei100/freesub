@@ -5,22 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.78.194
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2c0109e7-8d35-4d20-a076-0d4eb9eb444d
-  tls: true
-  servername: ger.chalghooz.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /cloude
-    headers:
-      Host: ger.chalghooz.com
-- name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 162.159.244.91
+  server: 104.19.229.21
   port: 443
   udp: true
   type: trojan
@@ -29,7 +14,18 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /assignment
+    path: //assignment
+- name: 🌐 其他地区 (Other) 02 - xiaohe
+  server: 104.19.229.21
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: //assignment
 proxy-groups:
 - name: PROXIES
   type: select
