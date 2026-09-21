@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 45.38.139.23
+  server: 31.59.46.140
   port: 8443
   udp: true
   type: vless
@@ -16,7 +16,7 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /jumping/class/bt?ed=2560
+    path: /travel/intro?ed=2560
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
