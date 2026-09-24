@@ -5,18 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 194.87.130.9
+  server: 151.101.56.7
   port: 443
   udp: true
-  type: vless
-  uuid: 57a437c4-7eed-4ecf-bf50-5e4e35f71deb
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: pccR04wlWHqbXoRk19m56lzp3CdDFd6RqGEuWj5TrWk
-    short-id: 793bf4b257bbf247
-  servername: www.marktplaats.nl
-  client-fingerprint: safari
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 proxy-groups:
 - name: PROXIES
   type: select
