@@ -6,14 +6,23 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "undef.network",
-      "server_port": 2052,
-      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "server": "104.21.13.77",
+      "server_port": 443,
+      "uuid": "4b21fbc7-00c2-4665-9788-02153832f9e5",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray.aizgl.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/xray-ws",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "v2ray.aizgl.com"
         }
       }
     },
