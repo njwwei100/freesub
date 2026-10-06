@@ -23,6 +23,7 @@
       },
       "transport": {
         "type": "ws",
+        "path": "/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/des---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1",
         "headers": {
           "Host": "mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net"
         }
